@@ -1,0 +1,64 @@
+body{
+    color: #142d4c;
+    font-family: Helvetica;
+    background-color: #fff;
+    background-color:rgb(224, 228, 235);
+}
+
+.header
+{
+    background-color: #385170;
+    color : #ececec;
+    line-height: 130px;
+    width: 98%;
+    text-align: center;
+    margin: auto;
+}
+
+.konten
+{
+    margin-top: 2pc;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.border
+{
+    color: #142d4c;
+    margin: 1pc;
+    margin-top: 0.4pc;
+    text-align: justify;
+    border: 3px solid;
+    border-color: #142d4c;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 20%;
+    height: 350px;
+    background-color: #ececec;
+}
+
+.border h3 a:hover
+{
+    color: #4f6989
+}
+
+.border h3 a
+{
+    text-decoration: none;
+    color: #142d4c;
+}
+
+.border h1{
+    color: azure;
+    font-weight: bold;
+    text-align: center;
+    line-height: 85px;
+    background-image: url(https://www.itprotoday.com/sites/itprotoday.com/files/programming%20evolution.jpg);
+    background-size: cover;
+}
+
+.border p{
+    margin-top: 0.2pc;
+    font-size:13px;
+}
