@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Scene</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #scene {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+
+        #mountains {
+            background: #87CEEB; /* Sky Blue */
+            position: absolute;
+            top: 40%;
+            left: 0;
+            right: 0;
+            height: 60%;
+            z-index: 1;
+        }
+
+        #clouds {
+            background: transparent;
+            position: absolute;
+            top: 20%;
+            left: -20%;
+            width: 140%;
+            height: 20%;
+            animation: moveClouds 20s linear infinite;
+            z-index: 2;
+        }
+
+        @keyframes moveClouds {
+            0% {
+                left: -20%;
+            }
+            100% {
+                left: 100%;
+            }
+        }
+
+        #field {
+            background: #8B4513; /* SaddleBrown */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 40%;
+            z-index: 1;
+        }
+
+        #wheat {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: repeating-linear-gradient(180deg, #8B4513, #8B4513 5px, #DAA520 5px, #DAA520 10px);
+            animation: blowWind 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes blowWind {
+            0% {
+                background-position: 0px;
+            }
+            100% {
+                background-position: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="scene">
+        <div id="clouds"></div>
+        <div id="mountains"></div>
+        <div id="field">
+            <div id="wheat"></div>
+        </div>
+    </div>
+</body>
+</html>

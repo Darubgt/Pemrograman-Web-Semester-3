@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    margin: 0;
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: azure; */
+    background-image:url(https://images4.alphacoders.com/556/556766.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.header{
+    width: 85%;
+    line-height: 100px;
+    margin:auto;
+    background-color:coral;
+    font-size:x-large;
+    color:aliceblue;
+    padding: 0 2pc;
+    font-weight: bold;
+}
+
+.menu{
+    background-color:orange;
+    width: 85%;
+    height: 50px;
+    margin: auto;
+    padding: 0 2pc;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-align: center;
+    float: left;
+    padding: 1pc;
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu ul li a:hover{
+    background-color:rgb(255, 195, 83);
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+.content{
+    width: 85%;
+    margin: auto;
+    height: 420px;
+    background-color: rgb(224, 247, 247);
+    padding-left: 2pc;
+    padding-right: 2pc;
+}
+
+.box{
+    border: 2px solid orange;
+    margin-top: 1pc;
+    padding-top: 0pc;
+    padding-left: 2pc;
+    padding-bottom: 2pc;
+    padding-right: 2pc;
+    background-color: rgb(246, 255, 255);
+}
+
+.box p{
+    font-size: small;
+}
+
+.kiri {
+    width: 73%;
+    height: 420px;
+    float: left;
+    margin: auto;
+}
+
+.kanan{
+    width: 21%;
+    height : 420px;
+    float: left;
+    margin: auto;
+    padding-left: 2pc;
+}
+
+.kanan ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.kanan ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 30px;
+    padding: 0.3pc;
+}
+
+.kanan ul li a:hover{
+    display: block;
+    background-color: aliceblue;
+}
+
+.foot{
+    width: 85%;
+    margin: 0 auto;
+    padding-left:  2pc;
+    padding-right:  2pc;
+    line-height:40px;
+    background-color: coral;
+    color: aliceblue;
+    font-size: small;
+}
